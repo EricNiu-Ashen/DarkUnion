@@ -188,7 +188,7 @@ class Team(object):
 
     def handle(self):
         """
-        简单的响应函数
+        简单的响应函数 开始和结束
         :return:
         """
         if self.ready_flag < 30:
