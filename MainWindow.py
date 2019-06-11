@@ -11,7 +11,7 @@ from Akuma import *
 
 
 class UiMainWindow(object):
-
+    # Qt自动生成的前端 不用管
     def __init__(self):
         super().__init__()
         self.mode_select = 0
@@ -67,23 +67,23 @@ class UiMainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "恶魔の力"))
 
-        self.radioButton.setText(_translate("MainWindow", "八岐大蛇"))
-        self.radioButton_2.setText(_translate("MainWindow", "业/觉/单"))
+        self.radioButton.setText(_translate("MainWindow", "组队模式"))
+        self.radioButton_2.setText(_translate("MainWindow", "业/灵/单"))
         self.pushButton.setText(_translate("MainWindow", "开始"))
         self.pushButton_2.setText(_translate("MainWindow", "停止"))
         self.pushButton_3.setText(_translate("MainWindow", "制作模板"))
 
     def select_handle(self, btn):
-        if btn.text() == "八岐大蛇":
+        if btn.text() == "组队模式":
             if btn.isChecked() and btn.isCheckable():
-                self.textBrowser.setText("组队刷八岐大蛇，队长或队员都可以。")
-                self.auto_run = BaQiDaShe()
+                self.textBrowser.setText("组队模式，队长或队员都可以。")
+                self.auto_run = Team()
                 self.mode_select = 1
 
-        if btn.text() == "业/觉/单":
+        if btn.text() == "业/灵/单":
             if btn.isChecked() and btn.isCheckable():
-                self.textBrowser.setText("单刷业原火/觉醒/八岐大蛇。")
-                self.auto_run = YeYuanHuo()
+                self.textBrowser.setText("单刷业原火/御灵/八岐大蛇。")
+                self.auto_run = Solo()
                 self.mode_select = 2
 
     def start_click_handle(self):
@@ -113,8 +113,10 @@ class UiMainWindow(object):
                     try:
                         self.auto_run.capture()
                     except OSError:
+                        # 部分情况下程序会失去截图的权限发生错误 比如有UAC弹窗的时候
                         self.textBrowser.setText("错误:发生未知意外，程序中断，请重新开始。")
                         break
+                    # 截取样本-判断-打印结果-处理结果 循环
                     QtWidgets.QApplication.processEvents()
                     self.auto_run.judge()
                     QtWidgets.QApplication.processEvents()
@@ -122,9 +124,8 @@ class UiMainWindow(object):
                     QtWidgets.QApplication.processEvents()
                     self.auto_run.handle()
                     QtWidgets.QApplication.processEvents()
-                    for i in range(0, 9):
-                        time.sleep(0.1)
-                        QtWidgets.QApplication.processEvents()
+                    time.sleep(0.6)  # 这里其实是采样频率
+                    QtWidgets.QApplication.processEvents()
 
     def stop_click_handle(self):
         self.textBrowser.setText("あれは誰だ 誰だ 誰だ" + "\n" + "あれはデビル デビルマン デビルマン")
@@ -134,7 +135,7 @@ class UiMainWindow(object):
         self.stop_flag = 1
 
     def create_template(self):
-        self.tmp_run = BaQiDaShe()
+        self.tmp_run = Team()
         try:
             self.tmp_run.start()
         except IndexError:
@@ -142,22 +143,20 @@ class UiMainWindow(object):
         except pygetwindow.PyGetWindowException:
             self.textBrowser.setText("错误:无法捕获游戏窗口，请确认是否取得管理员权限。")
 
-        for i in range(0, 9):
-            time.sleep(0.1)
-            QtWidgets.QApplication.processEvents()
+        time.sleep(0.3)
+        QtWidgets.QApplication.processEvents()
 
         try:
             self.tmp_run.capture_template()
+        except AttributeError:
+            self.textBrowser.setText("错误:捕获游戏窗口失败，请确认游戏正常运行。")
         except OSError:
             self.textBrowser.setText("错误:发生未知意外，程序中断，请稍后重试。")
-        QtWidgets.QApplication.processEvents()
-        self.textBrowser.setText("模板截图完成" + "\n" + "请将合适的模板移动至source文件夹，重命名后重启程序。")
+        else:
+            QtWidgets.QApplication.processEvents()
+            self.textBrowser.setText("模板截图完成" + "\n" + "请将合适的模板重命名后移动至source文件夹。")
+            del self.tmp_run
 
 
 if __name__ == '__main__':
-    app = QtWidgets.QApplication(sys.argv)
-    main_window = QtWidgets.QWidget()
-    ui = UiMainWindow()
-    ui.setup_ui(main_window)
-    main_window.show()
-    sys.exit(app.exec_())
+    print("前端和一些逻辑")
