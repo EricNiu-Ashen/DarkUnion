@@ -113,7 +113,7 @@ class Team(object):
         :return:
         """
         self.get_game_info()
-        time.sleep(0.8)
+        time.sleep(0.9)
         pyautogui.moveTo(random.randint(self.finish_click_pos_x, self.finish_click_pos_x + self.finish_click_rect_x),
                          random.randint(self.finish_click_pos_y, self.finish_click_pos_y + self.finish_click_rect_y),
                          0.6 + random.random() / 10, pyautogui.easeOutQuad)
@@ -146,8 +146,7 @@ class Team(object):
         """
         self.get_game_info()
         # 截取游戏
-        # pyautogui.screenshot("background.png", region=(self.window_pos_x, self.window_pos_y,
-        #                                                self.window_width, self.window_height))
+
         pyautogui.screenshot("sample_1.png", region=(self.ready_pos_x, self.ready_pos_y,
                                                      self.ready_rect_x, self.ready_rect_y))
         pyautogui.screenshot("sample_2.png", region=(self.finish_template_pos_x, self.finish_template_pos_y,
@@ -156,6 +155,8 @@ class Team(object):
     def capture_template(self):
         # 制作模板的函数 截取对应三个位置 手动移动到source文件夹
         self.get_game_info()
+        pyautogui.screenshot("background.png", region=(self.window_pos_x, self.window_pos_y,
+                                                       self.window_width, self.window_height))
         pyautogui.screenshot("battle_ready_1_tmp.png", region=(self.ready_pos_x, self.ready_pos_y,
                                                                self.ready_rect_x, self.ready_rect_y))
         pyautogui.screenshot("battle_ready_2_tmp.png", region=(self.ready_single_pos_x, self.ready_single_pos_y,
