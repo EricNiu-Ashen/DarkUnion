@@ -10,14 +10,15 @@ DarkUnion 拥抱恶魔的力量吧
 | ---- | ------- |
 |[PyAutoGUI](https://github.com/asweigart/pyautogui)|v0.9.42|
 |[PyGetWindow](https://github.com/asweigart/PyGetWindow)|v0.0.1|
+|[opencv-python](https://pypi.org/project/opencv-python/)|v4.1.0.25|
 
-**注意：pygetwindow的后续版本无法在Windows环境下安装。推荐使用v0.0.1版本**
+**注意：pygetwindow的后续版本可能无法在Windows环境下安装。推荐使用v0.0.1版本**
 
 使用方法
 =======
 1.登入游戏，缩放到合适的分辨率
 
-2.分三次，在组队界面，副本界面，和战斗结束界面下点击制作模板按钮。
+2.分三次，在组队界面、副本界面和战斗结束界面下点击制作模板按钮。
 
 ![](./example/background_1.png)
 
@@ -25,7 +26,7 @@ DarkUnion 拥抱恶魔的力量吧
 
 ![](./example/background_3.png)
 
-将根目录下的符合下面三张图片的临时文件重命名后覆盖到source文件夹。
+将根目录下的符合下面三张图片的临时文件重命名后移动到source文件夹覆盖。
 
 | Sample | Filename | 
 | ------ | -------- |
@@ -33,7 +34,7 @@ DarkUnion 拥抱恶魔的力量吧
 |![](./example/battle_ready_2_rd.png)|battle_ready_2.png|
 |![](./example/battle_finished_rd.png)|battle_finished.png|
 
-**注意：因为游戏界面缩放后重采样的结果不同，即使再次缩放到同一分辨率也不能保证上次制作的模板有效。具体请查看程序运行过程中打印的比较值。**
+**注意：因为游戏界面缩放后，重采样的结果不同，即使再次缩放到同一分辨率也不能保证上次制作的模板有效。具体请查看程序运行过程中打印的比较值。**
 
 3.选择组队或者单刷点击开始，即可自动战斗。
 
