@@ -2,7 +2,7 @@ DarkUnion 拥抱恶魔的力量吧
 =========================
 实现自动组队/单刷痒痒鼠的副本。任意分辨率下，重新制作模板即可使用。
 
-理论上支持Linux、MacOS、windows。但是痒痒鼠桌面版只支持Windows。
+理论上支持Linux、MacOS、Windows。但是痒痒鼠桌面版只支持Windows。
 
 环境依赖
 ========
@@ -33,7 +33,7 @@ DarkUnion 拥抱恶魔的力量吧
 |![](./example/battle_ready_2_rd.png)|battle_ready_2.png|
 |![](./example/battle_finished_rd.png)|battle_finished.png|
 
-注意：因为游戏界面缩放后重采样的结果不同，即使再次缩放到同一分辨率也不能保证上次制作的模板有效。具体请查看程序运行过程中打印的比较值。
+**注意：因为游戏界面缩放后重采样的结果不同，即使再次缩放到同一分辨率也不能保证上次制作的模板有效。具体请查看程序运行过程中打印的比较值。**
 
 3.选择组队或者单刷点击开始，即可自动战斗。
 
@@ -42,6 +42,6 @@ DarkUnion 拥抱恶魔的力量吧
 程序默认将游戏窗口移动到右侧中间的位置，但是移动窗口不会影响到程序运行。
 
 如果不需要此功能，请将Akuma.py文件Line140注释：
-
-`self.game_window.moveTo(SCREEN_WIDTH - self.window_width - 20, int(SCREEN_HEIGHT/2 - self.window_height/2))`
-
+```
+self.game_window.moveTo(SCREEN_WIDTH - self.window_width - 20, int(SCREEN_HEIGHT/2 - self.window_height/2))
+```

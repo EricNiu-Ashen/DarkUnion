@@ -102,10 +102,14 @@ class Team(object):
         :return:
         """
         self.get_game_info()
-        pyautogui.moveTo(random.randint(self.ready_pos_x, self.ready_pos_x + self.ready_rect_x),
-                         random.randint(self.ready_pos_y, self.ready_pos_y + self.ready_rect_y),
+        pyautogui.moveTo(random.randint(self.ready_pos_x+1, self.ready_pos_x + self.ready_rect_x-1),
+                         random.randint(self.ready_pos_y+1, self.ready_pos_y + self.ready_rect_y-1),
                          0.2 + random.random() / 5, pyautogui.easeOutQuad)
         pyautogui.click(clicks=3, interval=random.random() / 3 + 0.1)
+        pyautogui.moveTo(random.randint(self.window_pos_x, self.window_pos_x + 50),
+                         random.randint(self.window_pos_y+self.window_height+10,
+                                        self.window_pos_y+self.window_height+60),
+                         0.2 + random.random() / 10, pyautogui.easeOutQuad)
 
     def click_mouse_finish(self):
         """
@@ -113,16 +117,16 @@ class Team(object):
         :return:
         """
         self.get_game_info()
-        time.sleep(0.9)
+        time.sleep(1)
         pyautogui.moveTo(random.randint(self.finish_click_pos_x, self.finish_click_pos_x + self.finish_click_rect_x),
                          random.randint(self.finish_click_pos_y, self.finish_click_pos_y + self.finish_click_rect_y),
                          0.6 + random.random() / 10, pyautogui.easeOutQuad)
-        pyautogui.click(clicks=3, interval=random.random() / 10 + 0.2)
-        time.sleep(2.1 + (random.random() / 8))
+        pyautogui.click(clicks=3, interval=random.random() / 8 + 0.2)
+        time.sleep(2.1 + (random.random() / 10))
         pyautogui.click(clicks=4, interval=random.random() / 20 + 0.33)
-        pyautogui.moveTo(random.randint(self.finish_click_pos_x, self.finish_click_pos_x + 50),
-                         random.randint(self.finish_click_pos_y, self.finish_click_pos_y + 50),
-                         0.2 + random.random() / 10, pyautogui.easeOutQuad)
+        # pyautogui.moveTo(random.randint(self.finish_click_pos_x, self.finish_click_pos_x + 50),
+        #                  random.randint(self.finish_click_pos_y, self.finish_click_pos_y + 50),
+        #                  0.2 + random.random() / 10, pyautogui.easeOutQuad)
 
     def start(self):
         """
@@ -155,8 +159,8 @@ class Team(object):
     def capture_template(self):
         # 制作模板的函数 截取对应三个位置 手动移动到source文件夹
         self.get_game_info()
-        pyautogui.screenshot("background.png", region=(self.window_pos_x, self.window_pos_y,
-                                                       self.window_width, self.window_height))
+        # pyautogui.screenshot("background.png", region=(self.window_pos_x, self.window_pos_y,
+        #                                                self.window_width, self.window_height))
         pyautogui.screenshot("battle_ready_1_tmp.png", region=(self.ready_pos_x, self.ready_pos_y,
                                                                self.ready_rect_x, self.ready_rect_y))
         pyautogui.screenshot("battle_ready_2_tmp.png", region=(self.ready_single_pos_x, self.ready_single_pos_y,
@@ -215,10 +219,14 @@ class Solo(Team):
         :return:
         """
         self.get_game_info()
-        pyautogui.moveTo(random.randint(self.ready_single_pos_x, self.ready_single_pos_x + self.ready_single_rect_x),
-                         random.randint(self.ready_single_pos_y, self.ready_single_pos_y + self.ready_single_rect_y),
+        pyautogui.moveTo(random.randint(self.ready_single_pos_x+1, self.ready_single_pos_x+self.ready_single_rect_x-1),
+                         random.randint(self.ready_single_pos_y+1, self.ready_single_pos_y+self.ready_single_rect_y-1),
                          0.2 + random.random() / 5, pyautogui.easeOutQuad)
         pyautogui.click(clicks=3, interval=random.random() / 3 + 0.1)
+        pyautogui.moveTo(random.randint(self.window_pos_x, self.window_pos_x + 50),
+                         random.randint(self.window_pos_y+self.window_height+10,
+                                        self.window_pos_y+self.window_height+60),
+                         0.2 + random.random() / 10, pyautogui.easeOutQuad)
 
     def capture(self):
         """

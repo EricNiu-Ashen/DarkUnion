@@ -391,17 +391,41 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('win32com.shell.shellcon',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.packaging.requirements',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
+  ('pkg_resources._vendor.packaging._compat',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
   ('pkg_resources._vendor.six',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'd:\\program files (x86)\\microsoft visual '
@@ -439,49 +463,25 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\win32\\lib\\netbios.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
+  ('pkg_resources._vendor.packaging.utils',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
+  ('pkg_resources._vendor.packaging._structures',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
   ('pkg_resources._vendor',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.version',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
-   'PYMODULE'),
-  ('win32com.shell.shellcon',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
-   'PYMODULE'),
-  ('win32com.shell',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\win32comext\\shell\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
   ('__main__',
    'D:\\Program Files (x86)\\Microsoft Visual '
@@ -923,29 +923,17 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\datetime.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\tracemalloc.py',
+   'PYMODULE'),
   ('stringprep',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\stringprep.py',
    'PYMODULE'),
-  ('typing',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\typing.py',
-   'PYMODULE'),
   ('_py_abc',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\_py_abc.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\fnmatch.py',
-   'PYMODULE'),
-  ('struct',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\struct.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('__future__',
    'd:\\program files (x86)\\microsoft visual '
@@ -1046,14 +1034,6 @@
   ('platform',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\platform.py',
-   'PYMODULE'),
-  ('token',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\token.py',
-   'PYMODULE'),
-  ('tokenize',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\tokenize.py',
    'PYMODULE'),
   ('urllib.parse',
    'd:\\program files (x86)\\microsoft visual '
@@ -1287,9 +1267,21 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\string.py',
    'PYMODULE'),
+  ('_compat_pickle',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('pickle',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\pickle.py',
+   'PYMODULE'),
   ('logging',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pprint',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\pprint.py',
    'PYMODULE'),
   ('unittest.case',
    'd:\\program files (x86)\\microsoft visual '
@@ -1298,6 +1290,10 @@
   ('unittest.suite',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\fnmatch.py',
    'PYMODULE'),
   ('unittest.loader',
    'd:\\program files (x86)\\microsoft visual '
@@ -1322,6 +1318,10 @@
   ('doctest',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\doctest.py',
+   'PYMODULE'),
+  ('typing',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\typing.py',
    'PYMODULE'),
   ('stat',
    'd:\\program files (x86)\\microsoft visual '
@@ -1363,6 +1363,14 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\os.py',
    'PYMODULE'),
+  ('token',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\token.py',
+   'PYMODULE'),
+  ('struct',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\struct.py',
+   'PYMODULE'),
   ('gettext',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\gettext.py',
@@ -1379,17 +1387,9 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\argparse.py',
    'PYMODULE'),
-  ('pprint',
+  ('tokenize',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\pprint.py',
-   'PYMODULE'),
-  ('pickle',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\pickle.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\tracemalloc.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\tokenize.py',
    'PYMODULE'),
   ('MainWindow',
    'C:\\Users\\EricNiu\\PycharmProjects\\DarkUnion\\MainWindow.py',
@@ -1589,21 +1589,13 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
-   'PYMODULE'),
   ('setuptools._vendor.packaging._structures',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.specifiers',
+  ('setuptools._vendor',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.requirements',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.markers',
    'd:\\program files (x86)\\microsoft visual '
@@ -1613,29 +1605,37 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
-  ('setuptools._vendor',
+  ('setuptools._vendor.packaging.version',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._compat',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.utils',
+  ('setuptools._vendor.packaging._compat',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
   ('setuptools._vendor.six',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\six.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
+  ('setuptools._vendor.pyparsing',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('setuptools.msvc',
    'd:\\program files (x86)\\microsoft visual '
@@ -2437,21 +2437,141 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\Image.py',
    'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
   ('PIL.WebPImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
    'PYMODULE'),
   ('PIL.Jpeg2KImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
    'PYMODULE'),
-  ('PIL.XpmImagePlugin',
+  ('PIL.SunImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
    'PYMODULE'),
   ('PIL.MspImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'd:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
    'PYMODULE'),
   ('PIL.PdfImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
@@ -2465,145 +2585,25 @@
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\ImageSequence.py',
    'PYMODULE'),
-  ('PIL.GribStubImagePlugin',
+  ('PIL.TgaImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FpxImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FliImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\FliImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SunImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\SunImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcoImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DdsImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.McIdasImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BufrStubImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BlpImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WmfImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
    'PYMODULE'),
   ('PIL.PcxImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
    'PYMODULE'),
-  ('PIL.PcdImagePlugin',
+  ('PIL.FitsStubImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.TgaImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.CurImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\CurImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PixarImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcnsImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XbmImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImtImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SpiderImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImageTk',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\ImageTk.py',
+   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
    'PYMODULE'),
   ('PIL.PalmImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
    'PYMODULE'),
-  ('PIL.Hdf5StubImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\ImImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FitsStubImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpegImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PsdImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
-   'PYMODULE'),
   ('PIL.EpsImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
    'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpoImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XVThumbImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IptcImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FtexImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SgiImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MicImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\MicImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GbrImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DcxImagePlugin',
-   'd:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\anaconda3_64\\envs\\python37\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
    'PYMODULE'),
   ('PIL.TiffImagePlugin',
    'd:\\program files (x86)\\microsoft visual '
