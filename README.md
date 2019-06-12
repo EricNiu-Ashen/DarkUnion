@@ -1,18 +1,19 @@
-DarkUnion
-===========================
-##拥抱恶魔的力量吧
+DarkUnion 拥抱恶魔的力量吧
+=========================
 实现自动组队/单刷痒痒鼠的副本。任意分辨率下，重新制作模板即可使用。
 
 理论上支持Linux、MacOS、windows。但是痒痒鼠桌面版只支持Windows。
 
-###环境依赖
-| | |
-|---|---|
+环境依赖
+========
+| Name | Version | 
+| ---- | ------- |
 |[PyAutoGUI](https://github.com/asweigart/pyautogui)|v0.9.42|
 |[PyGetWindow](https://github.com/asweigart/PyGetWindow)|v0.0.1|
 **注意：pygetwindow的后续版本无法在Windows环境下安装。推荐使用v0.0.1版本**
 
-###使用方法
+使用方法
+=======
 1.登入游戏，缩放到合适的分辨率
 
 2.分三次，在组队界面，副本界面，和战斗结束界面下点击制作模板按钮。
